@@ -1,5 +1,5 @@
 import express from "express"
-import { createInventory, deleteInventory, getByIdInventory, getInventory, updateInventory } from "../controllers/inventoryController"
+import { createInventory, deleteInventory, getByIdInventory, getInventory, updateInventory } from "../controllers/inventoryController.js"
 import authMiddleWare from "../middleware/authMiddleware.js"
 const inventoryRoute=express.Router()
 
