@@ -1,9 +1,9 @@
-import express from "express"
-import cors from "cors"
-import dotenv from "dotenv"
-import connectdb from "../config/db.js"
-import authRoute from "./routes/authRoute.js"
-import inventoryRoute from "./routes/inventoryRoute.js"
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import connectdb from "./config/db.js";
+import authRoute from "./routes/authRoute.js";
+import inventoryRoute from "./routes/inventoryRoute.js";
 
 
 dotenv.config()
