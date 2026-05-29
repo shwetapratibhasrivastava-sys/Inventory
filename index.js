@@ -1,7 +1,7 @@
 import express from "express"
 import cors from "cors"
 import dotenv from "dotenv"
-import connectdb from "../Inventory_/config/db.js"
+import connectdb from "../config/db.js"
 import authRoute from "./routes/authRoute.js"
 import inventoryRoute from "./routes/inventoryRoute.js"
 
