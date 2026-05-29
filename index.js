@@ -9,10 +9,11 @@ import inventoryRoute from "./routes/inventoryRoute.js"
 dotenv.config()
 
 const app=express()
+connectdb()
 
 const PORT=process.env.PORT
 
-connectdb()
+
 app.use(cors())
 app.use(express.json())
 
